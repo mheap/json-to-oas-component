@@ -1,0 +1,30 @@
+{
+  "name": "json-to-oas-component",
+  "version": "1.0.0",
+  "description": "Take a JSON object and generate an Open Api Spec 3 component definition for it",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test NODE_PATH=. mocha test/* test/**/*",
+    "coverage": "NODE_ENV=test nyc mocha test/* test/**/*",
+    "coverage-html": "NODE_ENV=test nyc --reporter lcov mocha test/* test/**/*",
+    "lint": "eslint src command test",
+    "lint-fix": "eslint --fix src command test"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.3",
+    "prettier": "^1.5.2",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0",
+    "sinon-test": "^2.0.0"
+  },
+  "author": "Michael Heap <m@michaelheap.com>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.11.0"
+  }
+}

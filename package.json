@@ -1,8 +1,8 @@
 {
   "name": "json-to-oas-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Take a JSON object and generate an Open Api Spec 3 component definition for it",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "NODE_ENV=test NODE_PATH=. mocha test/* test/**/*",
     "coverage": "NODE_ENV=test nyc mocha test/* test/**/*",
